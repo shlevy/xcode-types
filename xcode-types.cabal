@@ -20,4 +20,5 @@ Library
   Ghc-Options:       -Wall
   Exposed-Modules:   Xcode.PBX.Project
                      Xcode.PBX.Target
+                     Xcode.PBX.Group
 
