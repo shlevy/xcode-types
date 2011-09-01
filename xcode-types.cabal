@@ -18,4 +18,5 @@ Library
   Build-Depends:     base
   hs-source-dirs:    src
   Ghc-Options        -Wall
+  Exposed-Modules:   Xcode.PBX.Project
 
