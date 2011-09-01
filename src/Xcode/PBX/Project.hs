@@ -11,6 +11,7 @@
 
 module Xcode.PBX.Project ( Project( .. ) ) where
 
+import Xcode.UUID ( UUID )
 import Xcode.Attribute ( Attribute )
 import Xcode.ConfigurationList ( ConfigurationList )
 import Xcode.CompatabilityVersion ( CompatabilityVersion )
@@ -24,7 +25,8 @@ import Xcode.PBX.Target ( Target )
 -- in .pbxproj files
 
 data Project = Project
-  { attributes             :: [ Attribute ]         -- ^ The project attributes
+  { uuid                   :: UUID                  -- ^ The unique identifier for this object
+  , attributes             :: [ Attribute ]         -- ^ The project attributes
   , buildConfigurationList :: ConfigurationList     -- ^ The build configurations
   , compatibilityVersion   :: CompatabilityVersion  -- ^ The version of xcode we're compatible with
   , developmentRegion      :: Region                -- ^ The locale this was developed in
