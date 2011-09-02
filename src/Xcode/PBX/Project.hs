@@ -14,7 +14,7 @@ module Xcode.PBX.Project ( Project( .. ) ) where
 import Xcode.UUID ( UUID )
 import Xcode.Attribute ( Attribute )
 import Xcode.ConfigurationList ( ConfigurationList )
-import Xcode.CompatabilityVersion ( CompatabilityVersion )
+import Xcode.CompatibilityVersion ( CompatibilityVersion )
 import Xcode.Region ( Region )
 import Xcode.PBX.Group ( Group )
 import System.FilePath.Posix ( FilePath )
@@ -28,7 +28,7 @@ data Project = Project
   { uuid                   :: UUID                  -- ^ The unique identifier for this object
   , attributes             :: [ Attribute ]         -- ^ The project attributes
   , buildConfigurationList :: ConfigurationList     -- ^ The build configurations
-  , compatibilityVersion   :: CompatabilityVersion  -- ^ The version of xcode we're compatible with
+  , compatibilityVersion   :: CompatibilityVersion  -- ^ The version of xcode we're compatible with
   , developmentRegion      :: Region                -- ^ The locale this was developed in
   , hasScannedForEncodings :: Bool                  -- ^ Have file encodings been scanned?
   , knownRegions           :: [ Region ]            -- ^ The known locales for the project
