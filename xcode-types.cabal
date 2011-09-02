@@ -22,4 +22,5 @@ Library
                      Xcode.PBX.Target
                      Xcode.PBX.Group
                      Xcode.Region
+                     Xcode.CompatibilityVersion
 
