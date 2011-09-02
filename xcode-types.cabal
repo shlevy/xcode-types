@@ -23,4 +23,5 @@ Library
                      Xcode.PBX.Group
                      Xcode.Region
                      Xcode.CompatibilityVersion
+                     Xcode.ConfigurationList
 
