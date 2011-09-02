@@ -21,4 +21,5 @@ Library
   Exposed-Modules:   Xcode.PBX.Project
                      Xcode.PBX.Target
                      Xcode.PBX.Group
+                     Xcode.Region
 
