@@ -19,10 +19,4 @@ Library
   hs-source-dirs:    src
   Ghc-Options:       -Wall
   Exposed-Modules:   Xcode.PBX.Project
-                     Xcode.PBX.Target
-                     Xcode.PBX.Group
-                     Xcode.Region
-                     Xcode.CompatibilityVersion
-                     Xcode.ConfigurationList
-                     Xcode.Attribute
 
