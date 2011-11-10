@@ -16,5 +16,4 @@ module Xcode.CompatibilityVersion ( CompatibilityVersion( .. ) ) where
 
 data CompatibilityVersion
   = Xcode2.4
-  deriving Show
 

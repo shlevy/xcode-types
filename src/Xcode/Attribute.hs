@@ -16,5 +16,4 @@ module Xcode.Attribute ( Attribute( .. ) ) where
 
 data Region
   = OrganizationName
-  deriving Show
 

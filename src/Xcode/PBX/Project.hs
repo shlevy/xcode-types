@@ -39,5 +39,4 @@ data Project = Project
   , projectRoot            :: FilePath              -- ^ The relative path of the project root
   , targets                :: [ Target ]            -- ^ The build targets
   }
-  deriving ( Show )
 

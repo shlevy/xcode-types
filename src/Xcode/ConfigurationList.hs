@@ -22,5 +22,4 @@ data ConfigurationList = ConfigurationList
   , defaultConfigurationIsVisible :: Bool                    -- ^ Is the default visible?
   , defaultConfiguration          :: BuildConfiguration      -- ^ The default build configuraiton
   }
-  deriving ( Show )
 

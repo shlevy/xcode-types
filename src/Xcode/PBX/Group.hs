@@ -26,5 +26,4 @@ data Group = Group
   , path       :: Maybe FilePath    -- ^ The path of the group, if it has one
   , sourceTree :: SourceTree        -- ^ The source tree of the group
   }
-  deriving ( Show )
 

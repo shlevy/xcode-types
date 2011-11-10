@@ -19,5 +19,4 @@ data Region
   | Japanese
   | French
   | German
-  deriving Show
 

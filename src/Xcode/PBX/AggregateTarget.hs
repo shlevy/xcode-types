@@ -25,5 +25,4 @@ data AggregateTarget = AggregateTarget
   , name                   :: String                    -- ^ The name of the target
   , productName            :: String                    -- ^ The name of the product
   }
-  deriving ( Show )
 

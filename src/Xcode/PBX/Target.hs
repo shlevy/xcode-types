@@ -20,5 +20,4 @@ import Xcode.PBX.AggregateTarget ( AggregateTarget )
 data Target
   = NativeTarget NativeTarget
   | AggregateTarget AggregateTarget
-  deriving Show
 
