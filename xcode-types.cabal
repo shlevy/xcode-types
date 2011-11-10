@@ -24,4 +24,5 @@ Library
                      Xcode.Region
                      Xcode.CompatibilityVersion
                      Xcode.ConfigurationList
+                     Xcode.Attribute
 
