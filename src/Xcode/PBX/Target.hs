@@ -18,6 +18,6 @@ import Xcode.PBX.AggregateTarget ( AggregateTarget )
 -- This is just a meta-type combining NativeTarget and AggregateTarget
 
 data Target
-  = NativeTarget NativeTarget
-  | AggregateTarget AggregateTarget
+  = Native NativeTarget
+  | Aggregate AggregateTarget
 
