@@ -14,7 +14,7 @@ module Xcode.PBX.Group ( Group( .. ) ) where
 import Xcode.UUID ( UUID )
 import Xcode.PBX.GroupElement ( GroupElement )
 import System.FilePath.Posix ( FilePath )
-import Xcode.PBX.SourceTree ( SourceTree )
+import Xcode.SourceTree ( SourceTree )
 
 -- | A representation of a ProjectBuilderX group
 -- This is a group of files or other groups

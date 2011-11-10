@@ -14,7 +14,7 @@ module Xcode.PBX.FileReference ( FileReference( .. ) ) where
 import Xcode.FileEncoding ( FileEncoding )
 import Xcode.FileType ( FileType )
 import System.FilePath.Posix ( FilePath )
-import Xcode.PBX.SourceTree ( SourceTree )
+import Xcode.SourceTree ( SourceTree )
 
 -- | A project file
 
