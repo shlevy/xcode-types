@@ -15,7 +15,7 @@ Source-Repository head
   Location:          git://github.com/shlevy/xcode-types.git
 
 Library
-  Build-Depends:     base, filepath, largeword
+  Build-Depends:     base, filepath, largeword, containers
   hs-source-dirs:    src
   Ghc-Options:       -Wall
   Exposed-Modules:   Xcode.PBX.Project
